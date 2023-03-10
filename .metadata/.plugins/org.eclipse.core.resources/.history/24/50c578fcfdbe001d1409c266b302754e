@@ -1,0 +1,25 @@
+package collection.hashSet02;
+
+class Person {
+	String name;
+	int age;
+	
+	public Person(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+}
+
+public class HashSet3 {
+
+	public static void main(String[] args) {
+
+		Set<Member> set = new HashSet<Member>();
+		set.add(new Person("홍길동", 20));
+		set.add(new Person("홍길동", 20));
+		
+	}
+
+}
